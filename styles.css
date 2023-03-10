@@ -5,6 +5,44 @@ html{
     background: rgb(234, 246, 255);
 }
 
+ul.hori{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul.hori > li {
+    float: left;
+  }
+  
+  ul.hori > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    top: 0;
+    width: 100%;
+  }
+  
+  ul.hori > li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  ul.hori > li a.active {
+    background-color: #558B6E;
+  }
+
+
+  
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+
 .container {
     display: inline-flex; /* or inline-flex */
     justify-content: center;
@@ -41,19 +79,18 @@ html{
 
     #sub_box2{
         background-color: rgb(255, 216, 216);
-        height:300px;
-        width: 90%;
+        height:1000px;
+        width: 120%;
         font-size: 25px;
-        border-radius: 25px;
     }
 
 
     #sub_box3{
         background-color: rgb(2, 94, 147);
         color:aliceblue;
-        height:300px;
+        height:1500px;
+        width: 120%;
         font-size: 25px;
-        border-radius: 25px;
     }
 
     #sub_box4{
@@ -61,7 +98,6 @@ html{
         color:aliceblue;
         height:300px;
         font-size: 25px;
-        border-radius: 25px;
     }
 
 
@@ -82,7 +118,6 @@ html{
     }
 
     #photo1{
-        height: 150px;
-        width:90%;
+        height:400px;
+        width:40%;
     }
-    
